@@ -1,17 +1,17 @@
-public class UsingObjects {
+public class L2UsingObjects {
     private int attribute1;
     private double attribute2;
     private String attribute3;
 
     // Default constructor
-    public UsingObjects() {
+    public L2UsingObjects() {
         this.attribute1 = 0;
         this.attribute2 = 0.0;
         this.attribute3 = "";
     }
 
     // Constructor with parameters
-    public UsingObjects(int attribute1, double attribute2, String attribute3) {
+    public L2UsingObjects(int attribute1, double attribute2, String attribute3) {
         this.attribute1 = attribute1;
         this.attribute2 = attribute2;
         this.attribute3 = attribute3;
@@ -38,8 +38,8 @@ public class UsingObjects {
 
     public static void main(String[] args) {
         // Using Integer and Double class libraries
-        Integer intObj = Integer.valueOf(100);
-        Double doubleObj = Double.valueOf(99.99);
+        // Integer intObj = Integer.valueOf(100);
+        // Double doubleObj = Double.valueOf(99.99);
 
         // Using String objects and methods
         String str = "Hello, World!";
@@ -48,7 +48,7 @@ public class UsingObjects {
 
         // Using static method and Math class
         double value = 16.0;
-        double sqrtValue = UsingObjects.calculateSquareRoot(value);
+        double sqrtValue = L2UsingObjects.calculateSquareRoot(value);
         System.out.println("Square root of " + value + " is " + sqrtValue);
 
         // Creating and using ObjectsAndClasses object
